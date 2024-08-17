@@ -4,76 +4,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>America Pallares</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-<link rel="shortcut icon" href="google.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Gmail</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Imagenes</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer"> 
-                    <img id="puntos" src="assets/puntos.webp" alt="puntos"> 
-                    </a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">
-                    <img id="perfil" src="assets/perfil.jpg" alt="perfil"> 
-                </a></li>
-            </ul>
-        </nav>
+
+        <header class="p-3 text-bg-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 text-secondary">America</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">Habilidades</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">Proyectos</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">Testimonios</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2">Login</button>
+                        <button type="button" class="btn btn-warning">Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
 
     </header>
 
+
     <main>
-        <article>
-        <div>
-            <img id="logo" src="assets/logo.png" alt="logo">
-        </div>
-        <div id="buscador">
-        
-            <figure>
-                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                </svg>
-            </figure>
-            <input type="text" name="buscar" id="buscar">
-            <figure>
-                <svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path><path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path><path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path><path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path></svg>
-            </figure>
-            <figure>
-                <svg class="Gdd5U" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="192" width="192"></rect><g><circle fill="#34a853" cx="144.07" cy="144" r="16"></circle><circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle><path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path><path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path><path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path></g></svg>
-            </figure>
-        </div>
-        <div>
-            <button>Buscar con Google</button>
-            <button> Voy a tener suerte</button>
-        </div>
+
+        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hola soy America Pallares
+                    </h1>
+                    <p class="lead">Soy una persona que busca maneras creativas de resolver problemas, me encanta
+                        personalizar, dibujar y demostrar mis habilidades. Me gana la curiosidad por aprender mas.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container px-4 py-5" id="habilidades">
+            <h2 class="pb-2 border-bottom">Habilidades</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-1.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>Earth</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-2.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
+                                lines</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>California</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <h2 class="pb-2 border-bottom m-3 " id="Proyectos">Proyectos</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm container px-4 py-5">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+                                    </div>
+                                    <small class="text-body-secondary">fecha</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm container px-4 py-5">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        
+                                    </div>
+                                    <small class="text-body-secondary">fecha</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm container px-4 py-5">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        
+                                    </div>
+                                    <small class="text-body-secondary">fecha</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+
+
+        <section class="container px-4 py-5 align-items-stretch ">
+            <h2 class="pb-2 border-bottom m-3" id="testimonios">Testamentos</h2>
+
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+                </div>
+                <!-- contenedor de carrusel-->
+                  
+                <div class="row  ">
+                    <div class="col-lg-4 ">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                        </svg>
+                        <h2 class="fw-normal">Heading</h2>
+                        <p>Some representative placeholder content for the three columns of text below the carousel.
+                            This is the first column.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                        </svg>
+                        <h2 class="fw-normal">Heading</h2>
+                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
+                            second column.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                        </svg>
+                        <h2 class="fw-normal">Heading</h2>
+                        <p>And lastly this, the third column of representative placeholder content.</p>
+                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+        </section>
+
+
     </main>
 
-    <footer>
-        <p>Mexico</p>
-        <div>
-            <ul>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Sobre Google</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Publicidad</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Negocios</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Como funciona la busqueda</a></li>
-            </ul>
-            <ul>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Privacidad</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Condiciones</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Preferencias</a></li>
 
+    <footer id="contacto" class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
             </ul>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
